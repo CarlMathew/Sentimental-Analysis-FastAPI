@@ -27,5 +27,5 @@ then dump the model using joblib
 #code for dumping
 model = joblib.dump(variable_model_name, "root_to_dump.pkl")
 
-then re run the api again
+#then re run the api again
 ```
