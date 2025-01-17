@@ -29,3 +29,8 @@ model = joblib.dump(variable_model_name, "root_to_dump.pkl")
 
 #then re run the api again
 ```
+
+Parameters that is needed for the api
+
+time = "morning | noon | night "
+text = text of the sentiment
