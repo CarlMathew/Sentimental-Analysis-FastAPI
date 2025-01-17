@@ -12,9 +12,9 @@ model = joblib.load(model_path)
 
 router = APIRouter(tags=["sentiment"])
 
+
 @router.get("/GetSentimentValue", status_code=status.HTTP_200_OK)
 async def getSentimentValue(payload: schemas.Sentiment = Depends(schemas.Sentiment)):
-    
     print(payload.time)
     print(payload.text)
 

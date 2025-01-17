@@ -34,3 +34,5 @@ Parameters that is needed for the api
 
 time = "morning | noon | night "
 text = text of the sentiment
+
+you can access the api using `https://sentimental-analysis-fastapi.onrender.com/GetSentimentValue`
